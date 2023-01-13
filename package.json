@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "fuzzyset.js": "^1.0.7"
+  }
+}

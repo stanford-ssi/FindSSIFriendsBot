@@ -1,0 +1,35 @@
+{
+	"title": {
+		"type": "plain_text",
+		"text": "Find SSI Friends",
+		"emoji": true
+	},
+	"submit": {
+		"type": "plain_text",
+		"text": "Find friends",
+		"emoji": true
+	},
+	"type": "modal",
+	"callback_id": "modal",
+	"close": {
+		"type": "plain_text",
+		"text": "Cancel",
+		"emoji": true
+	},
+	"blocks": [
+		{
+			"type": "input",
+			"block_id": "message_input",
+			"element": {
+				"type": "plain_text_input",
+				"multiline": true,
+				"action_id": "plain_text_input_action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Paste canvas roster (it can be messy)",
+				"emoji": true
+			}
+		}
+	]
+}
